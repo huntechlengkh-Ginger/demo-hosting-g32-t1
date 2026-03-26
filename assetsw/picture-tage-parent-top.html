@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Tage
+    </title>
+</head>
+<body>
+    <h1>Picture Tage</h1>
+    <picture>
+        <!-- 0px -> 300px
+        media="(min-with: 300px)" -->
+        <source
+            media="(max-width:300px)"
+                srcset="../assetsw/dragonball-z-300px.jpg"
+        />
+        <!-- 301px -> 500px -->
+        <source
+            media="(max-width:500 px)"
+                srcset="../assetsw/dragonball-z-500px.jpg"
+        />
+        <!-- 501px -> 700px -->
+        <source
+            media="(max-width:700px)"
+                srcset="../assetsw/dragonball-z-700px.jpg"
+        />
+        <!-- 701px -> 1000px -->
+         <source
+            media="(max-width:1000px)"
+                srcset="../assetsw/dragonball-z-1000px.jpg"
+        />
+        <!-- 1000px -> 2000px -->
+        <source
+            media="(max-width:700px)"
+                srcset="../assetsw/dragonball-z-2000px.jpg"
+        />   
+        <img src="../assetsw/dragonball-z.jpg" width="100%"/>
+
+    </picture>
+    
+</body>
+</html>
